@@ -6,3 +6,4 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 })
 scene.setBackgroundColor(3)
 effects.clouds.startScreenEffect()
+music.playTone(262, music.beat(BeatFraction.Half))
